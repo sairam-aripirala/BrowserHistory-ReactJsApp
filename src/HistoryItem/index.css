@@ -1,0 +1,58 @@
+* {
+  /* border: 1px solid black; */
+  margin: 0;
+  font-family: 'roboto';
+}
+.history-item {
+  height: 60px;
+  padding: 5px;
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inner-history-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.titles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+}
+.time {
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 600;
+  margin-right: 35px;
+}
+.logo {
+  height: 30px;
+  margin: 10px;
+}
+.title-main {
+  font-size: 15px;
+  font-weight: 600;
+  color: #475569;
+  margin: 5px;
+}
+.domain-url {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  margin: 5px;
+}
+.delete-image {
+  height: 20px;
+  margin: 10px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: auto;
+}

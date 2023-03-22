@@ -1,0 +1,58 @@
+.bg-container {
+  min-height: 100vh;
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  height: 100px;
+  background-color: #3367d6;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.navbar-logo-image {
+  height: 55px;
+  margin: 2px 250px 2px 30px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+.search-button {
+  background-color: #2850a7;
+  width: 55px;
+  height: 35px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.search-icon {
+  height: 100%;
+}
+.search-input {
+  background-color: #2850a7;
+  border: none;
+  outline: none;
+  width: 410px;
+  height: 35px;
+  border-radius: 5px;
+  padding: 7px;
+  color: #ececec;
+}
+.history-cards-container {
+  height: 100%;
+  background-color: white;
+  list-style-type: none;
+  padding: 5% 20%;
+  display: flex;
+  flex-direction: column;
+}
+.empty-history-text {
+  margin: auto;
+  font-size: 30px;
+  color: #2850a7;
+  font-weight: 600;
+}
